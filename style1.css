@@ -56,6 +56,13 @@
   object-fit: cover;
 }
 
+.produk-banner {
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("dawwas.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 /* footer */
