@@ -1,0 +1,61 @@
+/* === FIX CARD AGAR SEJAJAR === */
+
+.row {
+  align-items: stretch;
+}
+
+.col-sm-6.col-lg-3 {
+  display: flex;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+/* Samakan ukuran gambar */
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Body card flex */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Harga */
+.card-body h4 {
+  margin-top: auto;
+}
+
+/* Dropdown tetap di bawah */
+.dropdown {
+  margin-top: 10px;
+}
+
+/* Hover effect biar lebih bagus */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card {
+  height: 100%;
+}
+
+.product-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+
+
+/* footer */
